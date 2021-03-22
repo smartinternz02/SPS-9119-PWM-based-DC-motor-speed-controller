@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\kaks\Documents\kicad test\test2\test2.sch</source>
+    <date>19/03/2021 20:01:55</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LM555 TIMER</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>2021-03-18</date>
+        <source>test2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LM555</value>
+      <footprint>Package_SO:SOP-8_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="lmic" part="LM555" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6052A507</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N5819</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6052EB74</tstamp>
+    </comp>
+    <comp ref="10K1">
+      <value>R 1206</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6052F01C</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRF540N</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF540N" description="33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6052F6E9</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60530134</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N5819</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60537478</tstamp>
+    </comp>
+    <comp ref="100pfd1">
+      <value>C_Polarized</value>
+      <footprint>Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60548899</tstamp>
+    </comp>
+    <comp ref="100nfd1">
+      <value>C_Polarized</value>
+      <footprint>Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P10.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60548E52</tstamp>
+    </comp>
+    <comp ref="dcmotor1">
+      <value>TestPoint_2Pole</value>
+      <footprint>TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60531FD9</tstamp>
+    </comp>
+    <comp ref="vcc1">
+      <value>TestPoint_2Pole</value>
+      <footprint>TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60533005</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60549411</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint_2Pole">
+      <description>2-polar test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_2Pole</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4001">
+      <aliases>
+        <alias>1N4002</alias>
+        <alias>1N4003</alias>
+        <alias>1N4004</alias>
+        <alias>1N4005</alias>
+        <alias>1N4006</alias>
+        <alias>1N4007</alias>
+        <alias>BA157</alias>
+        <alias>BA158</alias>
+        <alias>BA159</alias>
+      </aliases>
+      <description>50V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4001</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="SB120">
+      <aliases>
+        <alias>SB130</alias>
+        <alias>SB140</alias>
+        <alias>SB150</alias>
+        <alias>SB160</alias>
+        <alias>1N5817</alias>
+        <alias>1N5818</alias>
+        <alias>1N5819</alias>
+      </aliases>
+      <description>20V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.diodes.com/_files/datasheets/ds23022.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SB120</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BUZ11">
+      <aliases>
+        <alias>IRF3205</alias>
+        <alias>IRF540N</alias>
+        <alias>IRF740</alias>
+        <alias>IRLB8721PBF</alias>
+        <alias>IRLZ34N</alias>
+        <alias>IRLZ44N</alias>
+        <alias>VNP10N07</alias>
+        <alias>IPP060N06N</alias>
+      </aliases>
+      <description>30A Id, 50V Vds, N-Channel Power MOSFET, TO-220</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/BUZ11.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BUZ11</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lmic" part="LM555">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM555</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="TRG" type="input"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="RST" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DISC" type="input"/>
+        <pin num="8" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:/Users/kaks/Downloads/kicad-symbols-master/kicad-symbols-master/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:/Users/kaks/Downloads/kicad-symbols-master/kicad-symbols-master/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:/Users/kaks/Downloads/kicad-symbols-master/kicad-symbols-master/Diode.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:/Users/kaks/Downloads/kicad-symbols-master/kicad-symbols-master/Transistor_FET.lib</uri>
+    </library>
+    <library logical="lmic">
+      <uri>C:\Users\kaks\Documents\kicad test\test2/lmic.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D3-Pad2)">
+      <node ref="dcmotor1" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="2" name="Net-(RV1-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D2-Pad2)">
+      <node ref="RV1" pin="3"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="100nfd1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="100pfd1" pin="2"/>
+      <node ref="vcc1" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad1)">
+      <node ref="RV1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="9" name="Net-(10K1-Pad2)">
+      <node ref="U1" pin="7"/>
+      <node ref="10K1" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="10" name="+12v">
+      <node ref="U1" pin="8"/>
+      <node ref="10K1" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="D3" pin="1"/>
+      <node ref="vcc1" pin="2"/>
+      <node ref="dcmotor1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(100pfd1-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="100pfd1" pin="1"/>
+    </net>
+    <net code="12" name="/TRGTHR">
+      <node ref="100nfd1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="2"/>
+    </net>
+  </nets>
+</export>

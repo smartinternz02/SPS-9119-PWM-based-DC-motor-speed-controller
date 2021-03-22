@@ -1,0 +1,3 @@
+Info: Place file: "C:\Users\kaks\Documents\kicad test\test2\gerber\test2-all-pos.csv".
+Info: Component count: 2.
+Component Placement File generation OK.
